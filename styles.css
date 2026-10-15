@@ -1631,6 +1631,13 @@ blockquote::before {
 /* Staggered card reveals */
 .service-card.reveal-up.visible { transition-delay: calc(var(--i, 0) * .08s); }
 
+.text-link {
+  color: var(--gold-light);
+  border-bottom: 1px solid rgba(212,160,23,.4);
+  transition: var(--transition);
+}
+.text-link:hover { color: var(--gold-pale); border-color: var(--gold-pale); }
+
 /* ---------- FOCUS STYLES (a11y) ---------- */
 :focus-visible {
   outline: 2px solid var(--gold);
