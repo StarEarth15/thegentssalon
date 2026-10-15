@@ -340,6 +340,8 @@ h1, h2, h3, h4 {
   justify-content: center;
   text-align: center;
   overflow: hidden;
+  padding-top: 110px;
+  padding-bottom: 90px;
 }
 
 .hero-bg {
