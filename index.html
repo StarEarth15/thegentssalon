@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="The Gents Salon - Premium men's grooming and wellness in DIFC, Dubai. FIRST & ONLY HydraFacial MD for men in MENA. Expert barbers, facials, massages." />
+  <meta name="description" content="The Gents Salon - Premium men's grooming and wellness in DIFC, Dubai. The first and only HydraFacial MD for men in the MENA region. Haircuts, beard grooming, facials and massage." />
   <meta name="keywords" content="men's salon Dubai, barber DIFC, HydraFacial men Dubai, men's grooming Dubai, DIFC barber, men's facial Dubai, MENA HydraFacial" />
   <meta name="author" content="The Gents Salon" />
+  <meta name="theme-color" content="#1a1a1a" />
   <meta property="og:title" content="The Gents Salon | Premium Men's Grooming in DIFC Dubai" />
-  <meta property="og:description" content="FIRST & ONLY HydraFacial MD for men in Dubai & MENA. Premium grooming, haircuts, facials and wellness in the heart of DIFC." />
+  <meta property="og:description" content="The first and only HydraFacial MD for men in Dubai and the MENA region. Premium grooming, haircuts, facials and wellness in the heart of DIFC." />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="en_AE" />
   <title>The Gents Salon | Premium Men's Grooming – DIFC, Dubai</title>
@@ -18,14 +19,34 @@
     "@context": "https://schema.org",
     "@type": "HairSalon",
     "name": "The Gents Salon",
-    "description": "Premium men's grooming and wellness salon in DIFC, Dubai. FIRST and ONLY HydraFacial MD for men in Dubai and MENA region.",
+    "description": "Premium men's grooming and wellness salon in DIFC, Dubai. The first and only HydraFacial MD for men in Dubai and the MENA region.",
+    "telephone": "+971585343687",
+    "email": "contact@thegentssalon.com",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Dubai International Financial Centre",
+      "streetAddress": "Dubai International Financial Centre (DIFC)",
       "addressLocality": "Dubai",
       "addressCountry": "AE"
     },
-    "openingHours": ["Sa-Th 10:00-20:00", "Fr 14:00-20:00"],
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 25.2048,
+      "longitude": 55.2708
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+        "opens": "10:00",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Friday",
+        "opens": "14:00",
+        "closes": "20:00"
+      }
+    ],
     "priceRange": "AED 80 - AED 500",
     "sameAs": ["https://www.instagram.com/thegentssalondubai"],
     "hasOfferCatalog": {
@@ -85,10 +106,10 @@
       <div class="hero-pattern"></div>
     </div>
     <div class="hero-content">
-      <div class="hero-badge fade-in-up" aria-label="Award badge">
-        <span class="badge-icon">✦</span>
-        <span>First & Only HydraFacial MD in MENA</span>
-        <span class="badge-icon">✦</span>
+      <div class="hero-badge fade-in-up">
+        <span class="badge-icon" aria-hidden="true">✦</span>
+        <span>First &amp; Only HydraFacial MD for Men in MENA</span>
+        <span class="badge-icon" aria-hidden="true">✦</span>
       </div>
       <h1 class="hero-headline fade-in-up delay-1">
         Grooming Excellence<br>
@@ -100,23 +121,23 @@
         in the heart of Dubai International Financial Centre
       </p>
       <div class="hero-ctas fade-in-up delay-3">
-        <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3/booking?allOffer=true&menu=true&pId=778410&cartId=ace79018-c450-4564-ac27-90dcc6f33616" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Book Appointment</a>
+        <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3/booking?allOffer=true&amp;menu=true&amp;pId=778410&amp;cartId=ace79018-c450-4564-ac27-90dcc6f33616" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Book Appointment</a>
         <a href="#hydrafacial" class="btn btn-secondary">Learn About HydraFacial</a>
       </div>
-      <div class="hero-stats fade-in-up delay-4" aria-label="Key statistics">
-        <div class="stat">
-          <span class="stat-num">500+</span>
-          <span class="stat-label">Happy Clients</span>
-        </div>
-        <div class="stat-divider" aria-hidden="true"></div>
+      <div class="hero-stats fade-in-up delay-4" aria-label="Key facts">
         <div class="stat">
           <span class="stat-num">1st</span>
-          <span class="stat-label">HydraFacial MD in MENA</span>
+          <span class="stat-label">HydraFacial MD for Men in MENA</span>
         </div>
         <div class="stat-divider" aria-hidden="true"></div>
         <div class="stat">
-          <span class="stat-num">5★</span>
-          <span class="stat-label">Rated Salon</span>
+          <span class="stat-num">7</span>
+          <span class="stat-label">Days a Week</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat-num">DIFC</span>
+          <span class="stat-label">Heart of the Financial District</span>
         </div>
       </div>
     </div>
@@ -132,16 +153,15 @@
       <div class="about-grid">
         <div class="about-visual reveal-left">
           <div class="about-img-wrapper">
-            <div class="about-img-placeholder" aria-label="Elegant salon interior with leather chairs and warm lighting">
+            <div class="about-img-placeholder" role="img" aria-label="The Gents Salon interior">
               <div class="img-overlay-text">
-                <span>EST.</span>
                 <strong>DIFC</strong>
                 <span>DUBAI</span>
               </div>
             </div>
-            <div class="about-badge-float" aria-label="MENA exclusive badge">
+            <div class="about-badge-float" aria-label="First and only in MENA">
               <span class="badge-num">1st</span>
-              <span class="badge-txt">& Only in MENA</span>
+              <span class="badge-txt">&amp; Only in MENA</span>
             </div>
           </div>
         </div>
@@ -163,14 +183,14 @@
               <div class="pillar-icon" aria-hidden="true">◈</div>
               <div class="pillar-text">
                 <strong>Premium Treatments</strong>
-                <span>Expert techniques, luxury products</span>
+                <span>Expert techniques, quality products</span>
               </div>
             </div>
             <div class="pillar" role="listitem">
               <div class="pillar-icon" aria-hidden="true">◈</div>
               <div class="pillar-text">
                 <strong>Exclusive HydraFacial MD</strong>
-                <span>First & only in Dubai & MENA</span>
+                <span>First &amp; only in Dubai &amp; MENA</span>
               </div>
             </div>
             <div class="pillar" role="listitem">
@@ -181,7 +201,7 @@
               </div>
             </div>
           </div>
-          <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3/booking?allOffer=true&menu=true&pId=778410&cartId=ace79018-c450-4564-ac27-90dcc6f33616" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Reserve Your Session</a>
+          <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3/booking?allOffer=true&amp;menu=true&amp;pId=778410&amp;cartId=ace79018-c450-4564-ac27-90dcc6f33616" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Reserve Your Session</a>
         </div>
       </div>
     </div>
@@ -195,7 +215,7 @@
         <div class="section-label gold">Signature Treatment</div>
         <h2 class="section-title light">
           The Original<br><em>HydraFacial MD</em><br>
-          <span class="title-sub">First & Only in Dubai & MENA</span>
+          <span class="title-sub">First &amp; Only in Dubai &amp; MENA</span>
         </h2>
         <div class="hydra-crown" aria-hidden="true">✦ EXCLUSIVE ✦</div>
       </div>
@@ -203,36 +223,35 @@
         <div class="hydra-what reveal-left">
           <h3>What is HydraFacial MD?</h3>
           <p>
-            HydraFacial MD is the world's leading advanced facial treatment using patented
-            <strong>Vortex-Fusion® technology</strong> — a multi-step process that deeply
-            cleanses, extracts, and hydrates your skin simultaneously, without discomfort
-            or downtime.
+            HydraFacial MD is an advanced facial treatment built on patented
+            <strong>Vortex-Fusion® technology</strong>. It cleanses, extracts and hydrates
+            the skin in a single, comfortable session.
           </p>
           <p>
-            Unlike conventional facials, HydraFacial MD uses a unique spiral suction tip
-            combined with proprietary serums to remove impurities while delivering powerful
-            antioxidants, peptides, and hyaluronic acid deep into the skin.
+            Rather than relying on harsh exfoliation, the treatment uses a spiral vortex
+            tip and a range of targeted serums to clear impurities and deliver hydration
+            and antioxidants into the skin.
           </p>
           <div class="hydra-steps" aria-label="Treatment steps">
             <div class="step">
               <span class="step-num">01</span>
               <div>
-                <strong>Cleanse & Peel</strong>
-                <p>Uncover a new layer of skin with gentle exfoliation and resurfacing.</p>
+                <strong>Cleanse &amp; Peel</strong>
+                <p>Gentle exfoliation to refresh the surface of the skin.</p>
               </div>
             </div>
             <div class="step">
               <span class="step-num">02</span>
               <div>
-                <strong>Extract & Hydrate</strong>
-                <p>Remove debris painlessly with automated vacuum suction while nourishing.</p>
+                <strong>Extract &amp; Hydrate</strong>
+                <p>Vortex suction clears debris while the skin is nourished.</p>
               </div>
             </div>
             <div class="step">
               <span class="step-num">03</span>
               <div>
-                <strong>Fuse & Protect</strong>
-                <p>Saturate skin with antioxidants and peptides to maximize glow.</p>
+                <strong>Fuse &amp; Protect</strong>
+                <p>Antioxidant and hydrating serums are delivered into the skin.</p>
               </div>
             </div>
           </div>
@@ -244,35 +263,35 @@
               <span class="benefit-icon" aria-hidden="true">✦</span>
               <div>
                 <strong>Deeper Than a Standard Facial</strong>
-                <p>Clears clogged pores caused by daily shaving, pollution, and sweat.</p>
+                <p>Helps clear the congestion that daily shaving, pollution and sweat can leave behind.</p>
               </div>
             </li>
             <li>
               <span class="benefit-icon" aria-hidden="true">✦</span>
               <div>
-                <strong>Instant & Visible Results</strong>
-                <p>See the difference in one session. Brighter, smoother, clearer skin.</p>
+                <strong>Visible Freshness</strong>
+                <p>Many clients notice smoother, brighter-looking skin after a single session.</p>
               </div>
             </li>
             <li>
               <span class="benefit-icon" aria-hidden="true">✦</span>
               <div>
-                <strong>Zero Downtime</strong>
-                <p>Walk in, walk out — no redness, no recovery. Perfect for busy professionals.</p>
+                <strong>Minimal Downtime</strong>
+                <p>Designed to fit around a busy schedule, with little to no recovery time.</p>
               </div>
             </li>
             <li>
               <span class="benefit-icon" aria-hidden="true">✦</span>
               <div>
-                <strong>Professional Confidence</strong>
-                <p>Present your best face in every boardroom, meeting, and occasion.</p>
+                <strong>Presented at Your Best</strong>
+                <p>Arrive at every meeting and occasion looking fresh and well-groomed.</p>
               </div>
             </li>
             <li>
               <span class="benefit-icon" aria-hidden="true">✦</span>
               <div>
-                <strong>Safe for All Skin Types</strong>
-                <p>Including sensitive skin. Customised serums for your unique needs.</p>
+                <strong>Tailored to Your Skin</strong>
+                <p>Serums are selected to suit your skin's needs, including sensitive skin.</p>
               </div>
             </li>
           </ul>
@@ -281,34 +300,34 @@
             <span class="price-amount">AED 400</span>
             <span class="price-note">per session</span>
           </div>
-          <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3/booking?allOffer=true&menu=true&pId=778410&cartId=ace79018-c450-4564-ac27-90dcc6f33616" target="_blank" rel="noopener noreferrer" class="btn btn-gold">Experience the Difference – Book Now</a>
+          <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3/booking?allOffer=true&amp;menu=true&amp;pId=778410&amp;cartId=ace79018-c450-4564-ac27-90dcc6f33616" target="_blank" rel="noopener noreferrer" class="btn btn-gold">Experience the Difference – Book Your HydraFacial</a>
         </div>
       </div>
       <div class="hydra-gallery reveal-up">
-        <div class="gallery-label">HydraFacial Transformations</div>
+        <div class="gallery-label">HydraFacial MD</div>
         <div class="before-after-grid">
           <div class="ba-card">
-            <div class="ba-visual ba-1" aria-label="Before and after HydraFacial treatment showing improved skin clarity"></div>
+            <div class="ba-visual ba-1" role="img" aria-label="HydraFacial MD treatment, skin clarity and glow"></div>
             <div class="ba-caption">
               <span class="ba-tag">HydraFacial MD</span>
-              <strong>Skin Clarity & Glow</strong>
-              <p>After 1 session</p>
+              <strong>Skin Clarity &amp; Glow</strong>
+              <p>Results vary by individual</p>
             </div>
           </div>
           <div class="ba-card">
-            <div class="ba-visual ba-2" aria-label="Before and after showing reduced pores and improved texture"></div>
+            <div class="ba-visual ba-2" role="img" aria-label="HydraFacial MD treatment, pore refinement"></div>
             <div class="ba-caption">
               <span class="ba-tag">HydraFacial MD</span>
               <strong>Pore Refinement</strong>
-              <p>After 3 sessions</p>
+              <p>Results vary by individual</p>
             </div>
           </div>
           <div class="ba-card">
-            <div class="ba-visual ba-3" aria-label="Before and after showing anti-aging treatment results"></div>
+            <div class="ba-visual ba-3" role="img" aria-label="HydraFacial MD treatment, youthful radiance"></div>
             <div class="ba-caption">
               <span class="ba-tag">Anti-Aging Series</span>
               <strong>Youthful Radiance</strong>
-              <p>After 5 sessions</p>
+              <p>Results vary by individual</p>
             </div>
           </div>
         </div>
@@ -326,7 +345,7 @@
       </div>
       <div class="services-grid">
 
-        <article class="service-card reveal-up delay-1" aria-label="Haircut and Grooming services">
+        <article class="service-card reveal-up delay-1" aria-label="Haircut and grooming services">
           <div class="card-icon" aria-hidden="true">
             <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8 40L24 8L40 40" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -336,7 +355,7 @@
             </svg>
           </div>
           <h3>Haircut &amp; Grooming</h3>
-          <p>Precision cuts by master barbers trained in the finest techniques. From classic to contemporary.</p>
+          <p>Precision cuts and beard work by our barbers, from classic looks to contemporary styles.</p>
           <ul class="card-menu" aria-label="Haircut service menu">
             <li><span>Classic Haircut</span><span class="price">AED 100–120</span></li>
             <li><span>Fade / Undercut</span><span class="price">AED 120–150</span></li>
@@ -344,7 +363,7 @@
             <li><span>Full Grooming Package</span><span class="price">AED 180–220</span></li>
             <li><span>Hot Towel Shave</span><span class="price">AED 100</span></li>
           </ul>
-          <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3/booking?allOffer=true&menu=true&pId=778410&cartId=ace79018-c450-4564-ac27-90dcc6f33616" target="_blank" rel="noopener noreferrer" class="card-cta">Book Now</a>
+          <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3/booking?allOffer=true&amp;menu=true&amp;pId=778410&amp;cartId=ace79018-c450-4564-ac27-90dcc6f33616" target="_blank" rel="noopener noreferrer" class="card-cta">Book Now</a>
         </article>
 
         <article class="service-card reveal-up delay-2" aria-label="Facial treatment services">
@@ -357,15 +376,15 @@
             </svg>
           </div>
           <h3>Facial Treatments</h3>
-          <p>The FIRST &amp; ONLY HydraFacial MD for men in MENA. Transformative skin care exclusively for gentlemen.</p>
+          <p>The first and only HydraFacial MD for men in the MENA region, alongside facials designed for men's skin.</p>
           <ul class="card-menu" aria-label="Facial treatment menu">
-            <li class="highlight"><span>⭐ HydraFacial MD</span><span class="price">AED 400–500</span></li>
+            <li class="highlight"><span>HydraFacial MD</span><span class="price">AED 400–500</span></li>
             <li><span>Classic Facial</span><span class="price">AED 250–350</span></li>
             <li><span>Anti-Aging Facial</span><span class="price">AED 350–450</span></li>
-            <li><span>Acne Treatment</span><span class="price">AED 300–400</span></li>
+            <li><span>Acne Treatment Facial</span><span class="price">AED 300–400</span></li>
             <li><span>Express Facial (30 min)</span><span class="price">AED 150</span></li>
           </ul>
-          <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3/booking?allOffer=true&menu=true&pId=778410&cartId=ace79018-c450-4564-ac27-90dcc6f33616" target="_blank" rel="noopener noreferrer" class="card-cta gold">Book HydraFacial</a>
+          <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3/booking?allOffer=true&amp;menu=true&amp;pId=778410&amp;cartId=ace79018-c450-4564-ac27-90dcc6f33616" target="_blank" rel="noopener noreferrer" class="card-cta gold">Book HydraFacial</a>
         </article>
 
         <article class="service-card reveal-up delay-3" aria-label="Skin and grooming care products">
@@ -377,12 +396,11 @@
             </svg>
           </div>
           <h3>Skin &amp; Grooming Care</h3>
-          <p>Premium professional grooming products and personalised consultations for your skin type.</p>
+          <p>Professional grooming products and advice on the right routine for your skin.</p>
           <ul class="card-menu" aria-label="Skin care services">
             <li><span>Professional Shaving Products</span><span class="price">In-salon</span></li>
             <li><span>Premium Skincare Range</span><span class="price">In-salon</span></li>
-            <li><span>Grooming Consultation</span><span class="price">Complimentary</span></li>
-            <li><span>Personalised Skincare Plan</span><span class="price">On request</span></li>
+            <li><span>Grooming Consultation</span><span class="price">On request</span></li>
           </ul>
           <a href="#contact" class="card-cta">Enquire</a>
         </article>
@@ -396,13 +414,13 @@
             </svg>
           </div>
           <h3>Wellness &amp; Relaxation</h3>
-          <p>Step away from the boardroom. Therapeutic massages designed to restore and rejuvenate the modern gentleman.</p>
+          <p>Step away from the boardroom with massage treatments designed to help you unwind.</p>
           <ul class="card-menu" aria-label="Wellness treatments menu">
             <li><span>Head &amp; Neck Massage</span><span class="price">AED 150–200</span></li>
             <li><span>Full Body Massage</span><span class="price">AED 250–350</span></li>
             <li><span>Relaxation Packages</span><span class="price">On request</span></li>
           </ul>
-          <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3/booking?allOffer=true&menu=true&pId=778410&cartId=ace79018-c450-4564-ac27-90dcc6f33616" target="_blank" rel="noopener noreferrer" class="card-cta">Book Now</a>
+          <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3/booking?allOffer=true&amp;menu=true&amp;pId=778410&amp;cartId=ace79018-c450-4564-ac27-90dcc6f33616" target="_blank" rel="noopener noreferrer" class="card-cta">Book Now</a>
         </article>
 
         <article class="service-card reveal-up delay-5 card-wide" aria-label="Corporate packages for businesses">
@@ -417,12 +435,11 @@
           <div class="card-wide-content">
             <div>
               <h3>Corporate &amp; VIP Packages</h3>
-              <p>Exclusive packages for DIFC professionals and corporate teams. Monthly memberships, group discounts, and VIP programmes tailored to your schedule.</p>
+              <p>Packages for DIFC professionals and teams, including group discounts, monthly packages for regular clients and VIP membership.</p>
               <ul class="card-menu horizontal" aria-label="Corporate packages">
                 <li><span>Group discounts for DIFC teams</span></li>
-                <li><span>Monthly membership packages</span></li>
-                <li><span>VIP priority booking</span></li>
-                <li><span>In-office grooming events</span></li>
+                <li><span>Monthly packages</span></li>
+                <li><span>VIP membership programmes</span></li>
               </ul>
             </div>
             <a href="#contact" class="card-cta corporate">Enquire About Corporate</a>
@@ -433,48 +450,48 @@
     </div>
   </section>
 
-  <!-- BEFORE & AFTER GALLERY -->
-  <section class="gallery section" id="gallery" aria-label="Before and after grooming gallery">
+  <!-- GALLERY -->
+  <section class="gallery section" id="gallery" aria-label="Our work">
     <div class="container">
       <div class="section-header reveal-up">
-        <div class="section-label">Transformations</div>
-        <h2 class="section-title">Before &amp; After</h2>
-        <p class="section-desc">Real results from real gentlemen. See the difference expert grooming makes.</p>
+        <div class="section-label">Our Work</div>
+        <h2 class="section-title">The Craft Behind Every Visit</h2>
+        <p class="section-desc">Precision, care and attention to detail in every cut, shave and treatment.</p>
       </div>
       <div class="gallery-grid">
-        <div class="gallery-item reveal-up delay-1" role="figure" aria-label="Classic haircut transformation">
+        <div class="gallery-item reveal-up delay-1" role="img" aria-label="Precision haircut">
           <div class="gallery-img g-img-1"></div>
           <div class="gallery-overlay">
             <span class="gallery-tag">Haircut</span>
-            <strong>Classic Transformation</strong>
+            <strong>Precision Cut</strong>
           </div>
         </div>
-        <div class="gallery-item reveal-up delay-2" role="figure" aria-label="HydraFacial skin transformation">
+        <div class="gallery-item reveal-up delay-2" role="img" aria-label="HydraFacial MD treatment">
           <div class="gallery-img g-img-2"></div>
           <div class="gallery-overlay">
             <span class="gallery-tag">HydraFacial MD</span>
-            <strong>Skin Transformation</strong>
+            <strong>Radiant Skin</strong>
           </div>
         </div>
-        <div class="gallery-item reveal-up delay-3" role="figure" aria-label="Beard grooming transformation">
+        <div class="gallery-item reveal-up delay-3" role="img" aria-label="Beard shaping">
           <div class="gallery-img g-img-3"></div>
           <div class="gallery-overlay">
             <span class="gallery-tag">Beard Styling</span>
-            <strong>Beard Perfection</strong>
+            <strong>Beard Shaping</strong>
           </div>
         </div>
-        <div class="gallery-item reveal-up delay-4" role="figure" aria-label="Full grooming package results">
+        <div class="gallery-item reveal-up delay-4" role="img" aria-label="Full grooming package">
           <div class="gallery-img g-img-4"></div>
           <div class="gallery-overlay">
             <span class="gallery-tag">Full Package</span>
             <strong>Complete Grooming</strong>
           </div>
         </div>
-        <div class="gallery-item gallery-item-tall reveal-up delay-2" role="figure" aria-label="HydraFacial anti-aging results">
+        <div class="gallery-item gallery-item-tall reveal-up delay-2" role="img" aria-label="Anti-aging facial treatment">
           <div class="gallery-img g-img-5"></div>
           <div class="gallery-overlay">
-            <span class="gallery-tag">HydraFacial MD</span>
-            <strong>Anti-Aging Results</strong>
+            <span class="gallery-tag">Anti-Aging</span>
+            <strong>Skin Care Ritual</strong>
           </div>
         </div>
       </div>
@@ -492,29 +509,46 @@
       <div class="team-grid">
 
         <div class="team-card reveal-up delay-1">
-          <div class="team-photo" aria-label="Professional photo of Ahmad, Master Barber">
+          <div class="team-photo" role="img" aria-label="Master barber at work">
             <div class="team-photo-placeholder tp-1"></div>
             <div class="team-hover-overlay" aria-hidden="true">
-              <p>"Precision is an art. Every cut is my signature."</p>
+              <p>Classic and contemporary cuts, precisely executed.</p>
               <div class="team-skills">
                 <span>Classic Cuts</span>
                 <span>Fades</span>
-                <span>Beard Art</span>
+                <span>Beard Shaping</span>
               </div>
             </div>
           </div>
           <div class="team-info">
-            <h3>Ahmad Al-Rashid</h3>
-            <span class="team-title">Master Barber</span>
-            <span class="team-exp">12 Years Experience</span>
+            <h3>Master Barber</h3>
+            <span class="team-title">Haircuts &amp; Beard Artistry</span>
           </div>
         </div>
 
         <div class="team-card reveal-up delay-2">
-          <div class="team-photo" aria-label="Professional photo of Sofia, HydraFacial Specialist">
+          <div class="team-photo" role="img" aria-label="Senior barber at work">
             <div class="team-photo-placeholder tp-2"></div>
             <div class="team-hover-overlay" aria-hidden="true">
-              <p>"Skin health is the foundation of confidence."</p>
+              <p>Sharp lines and a relaxed, traditional shave.</p>
+              <div class="team-skills">
+                <span>Fades</span>
+                <span>Hot Towel Shave</span>
+                <span>Styling</span>
+              </div>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Senior Barber</h3>
+            <span class="team-title">Fades &amp; Traditional Shaving</span>
+          </div>
+        </div>
+
+        <div class="team-card reveal-up delay-3">
+          <div class="team-photo" role="img" aria-label="HydraFacial MD specialist">
+            <div class="team-photo-placeholder tp-3"></div>
+            <div class="team-hover-overlay" aria-hidden="true">
+              <p>Tailored skin care built around the individual.</p>
               <div class="team-skills">
                 <span>HydraFacial MD</span>
                 <span>Anti-Aging</span>
@@ -523,36 +557,16 @@
             </div>
           </div>
           <div class="team-info">
-            <h3>Sofia Marchetti</h3>
-            <span class="team-title">HydraFacial MD Specialist</span>
-            <span class="team-exp">8 Years Experience</span>
-          </div>
-        </div>
-
-        <div class="team-card reveal-up delay-3">
-          <div class="team-photo" aria-label="Professional photo of James, Senior Barber">
-            <div class="team-photo-placeholder tp-3"></div>
-            <div class="team-hover-overlay" aria-hidden="true">
-              <p>"Style is personal. I help you find yours."</p>
-              <div class="team-skills">
-                <span>Fades</span>
-                <span>Hot Shave</span>
-                <span>Styling</span>
-              </div>
-            </div>
-          </div>
-          <div class="team-info">
-            <h3>James O'Connor</h3>
-            <span class="team-title">Senior Barber</span>
-            <span class="team-exp">9 Years Experience</span>
+            <h3>HydraFacial MD Specialist</h3>
+            <span class="team-title">Advanced Skin Treatments</span>
           </div>
         </div>
 
         <div class="team-card reveal-up delay-4">
-          <div class="team-photo" aria-label="Professional photo of Rania, Skin Care Expert">
+          <div class="team-photo" role="img" aria-label="Skin care therapist">
             <div class="team-photo-placeholder tp-4"></div>
             <div class="team-hover-overlay" aria-hidden="true">
-              <p>"Every skin tells a story. Let me help yours shine."</p>
+              <p>Thoughtful facials and massage to help you recharge.</p>
               <div class="team-skills">
                 <span>Facials</span>
                 <span>Skin Care</span>
@@ -561,9 +575,8 @@
             </div>
           </div>
           <div class="team-info">
-            <h3>Rania Hassan</h3>
-            <span class="team-title">Skin Care Expert &amp; Therapist</span>
-            <span class="team-exp">7 Years Experience</span>
+            <h3>Skin Care Therapist</h3>
+            <span class="team-title">Facials &amp; Wellness</span>
           </div>
         </div>
 
@@ -584,13 +597,13 @@
           <article class="testimonial-card" aria-label="Review by Ahmed">
             <div class="stars" aria-label="5 stars">★★★★★</div>
             <blockquote>
-              "The HydraFacial changed my skin completely. Professional service, fantastic staff, and the results after just one session were incredible. This is my go-to salon in Dubai."
+              "The HydraFacial changed my skin. Professional service, fantastic staff."
             </blockquote>
             <div class="reviewer">
               <div class="reviewer-avatar" aria-hidden="true">A</div>
               <div>
-                <strong>Ahmed K.</strong>
-                <span>Dubai, Finance Professional</span>
+                <strong>Ahmed</strong>
+                <span>Dubai</span>
               </div>
             </div>
           </article>
@@ -598,13 +611,13 @@
           <article class="testimonial-card" aria-label="Review by Marcus">
             <div class="stars" aria-label="5 stars">★★★★★</div>
             <blockquote>
-              "Finally, a salon that truly understands men's grooming needs. The atmosphere is exactly right — relaxed, professional, and genuinely welcoming. Highly recommend to anyone in DIFC."
+              "Finally, a salon that understands men's grooming needs. Highly recommend."
             </blockquote>
             <div class="reviewer">
               <div class="reviewer-avatar" aria-hidden="true">M</div>
               <div>
-                <strong>Marcus V.</strong>
-                <span>DIFC, Investment Banking</span>
+                <strong>Marcus</strong>
+                <span>DIFC</span>
               </div>
             </div>
           </article>
@@ -612,13 +625,13 @@
           <article class="testimonial-card" aria-label="Review by Khalid">
             <div class="stars" aria-label="5 stars">★★★★★</div>
             <blockquote>
-              "Best haircuts in Dubai, hands down. The atmosphere is perfect for relaxing after a long day at work. Ahmad is a true master — I won't go anywhere else."
+              "Best haircuts in Dubai. The atmosphere is perfect for relaxing after work."
             </blockquote>
             <div class="reviewer">
               <div class="reviewer-avatar" aria-hidden="true">K</div>
               <div>
-                <strong>Khalid A.</strong>
-                <span>Abu Dhabi, Corporate Executive</span>
+                <strong>Khalid</strong>
+                <span>Abu Dhabi</span>
               </div>
             </div>
           </article>
@@ -626,13 +639,13 @@
           <article class="testimonial-card" aria-label="Review by James">
             <div class="stars" aria-label="5 stars">★★★★★</div>
             <blockquote>
-              "The HydraFacial treatment is worth every dirham. My skin looks incredible — clearer, smoother, and genuinely younger. Sofia is exceptionally knowledgeable. Booked my next three sessions."
+              "The HydraFacial treatment is worth every dirham. My skin looks incredible."
             </blockquote>
             <div class="reviewer">
               <div class="reviewer-avatar" aria-hidden="true">J</div>
               <div>
-                <strong>James R.</strong>
-                <span>Dubai, Expatriate Professional</span>
+                <strong>James</strong>
+                <span>Expatriate</span>
               </div>
             </div>
           </article>
@@ -640,27 +653,13 @@
           <article class="testimonial-card" aria-label="Review by Hassan">
             <div class="stars" aria-label="5 stars">★★★★★</div>
             <blockquote>
-              "Exceptional service from the moment you walk in. This is where I come to look and feel my absolute best. The team's professionalism is unmatched anywhere in Dubai."
+              "Exceptional service. This is where I come to look and feel my best."
             </blockquote>
             <div class="reviewer">
               <div class="reviewer-avatar" aria-hidden="true">H</div>
               <div>
-                <strong>Hassan M.</strong>
-                <span>Dubai, Business Owner</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="testimonial-card" aria-label="Review by David">
-            <div class="stars" aria-label="5 stars">★★★★★</div>
-            <blockquote>
-              "I travel to DIFC specifically to visit The Gents Salon. The full grooming package combined with the HydraFacial is the ultimate reset. My clients always notice the difference."
-            </blockquote>
-            <div class="reviewer">
-              <div class="reviewer-avatar" aria-hidden="true">D</div>
-              <div>
-                <strong>David C.</strong>
-                <span>Abu Dhabi, Consultant</span>
+                <strong>Hassan</strong>
+                <span>Business Owner</span>
               </div>
             </div>
           </article>
@@ -683,14 +682,14 @@
         <div class="section-label gold">Reserve Your Experience</div>
         <h2 class="section-title light">Book Your<br><em>Appointment</em></h2>
         <p class="booking-desc">
-          Available for same-day appointments. HydraFacial sessions are in high demand — secure your spot today.
+          Available for same-day appointments. Our HydraFacial sessions are popular, so we recommend booking early.
         </p>
         <div class="booking-highlight" role="note">
           <span class="bh-icon" aria-hidden="true">✦</span>
-          <span>HydraFacial bookings are popular — book early to avoid disappointment</span>
+          <span>HydraFacial bookings are popular — book now to secure your session</span>
         </div>
         <div class="booking-options">
-          <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3/booking?allOffer=true&menu=true&pId=778410&cartId=ace79018-c450-4564-ac27-90dcc6f33616" target="_blank" rel="noopener noreferrer" class="btn btn-gold btn-lg">
+          <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3/booking?allOffer=true&amp;menu=true&amp;pId=778410&amp;cartId=ace79018-c450-4564-ac27-90dcc6f33616" target="_blank" rel="noopener noreferrer" class="btn btn-gold btn-lg">
             Book via Fresha
           </a>
           <a href="https://wa.me/971585343687?text=Hello%2C%20I%27d%20like%20to%20book%20an%20appointment%20at%20The%20Gents%20Salon" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">
@@ -781,10 +780,10 @@
           </div>
         </div>
         <div class="contact-map reveal-right">
-          <div class="map-wrapper" aria-label="Map showing DIFC location">
+          <div class="map-wrapper">
             <iframe
-              title="The Gents Salon location in DIFC Dubai"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.4!2d55.2708!3d25.2048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1cbb7e2!2sDubai%20International%20Financial%20Centre!5e0!3m2!1sen!2sae!4v1699000000000"
+              title="The Gents Salon location in DIFC, Dubai"
+              src="https://maps.google.com/maps?q=25.2048,55.2708&amp;z=15&amp;output=embed"
               width="100%"
               height="400"
               style="border:0;"
@@ -840,7 +839,7 @@
           </div>
           <div class="footer-newsletter">
             <h4>Stay Connected</h4>
-            <p>Grooming tips, exclusive offers, and new treatment announcements.</p>
+            <p>Grooming tips and exclusive offers.</p>
             <form class="newsletter-form" aria-label="Newsletter signup form" onsubmit="handleNewsletterSubmit(event)">
               <div class="newsletter-input-wrap">
                 <input type="email" placeholder="Your email address" aria-label="Email address for newsletter" required autocomplete="email" />
@@ -854,7 +853,7 @@
     </div>
     <div class="footer-bottom">
       <div class="container">
-        <p>&copy; 2025 The Gents Salon. All rights reserved.</p>
+        <p>&copy; 2026 The Gents Salon. All rights reserved.</p>
         <p>Dubai International Financial Centre, Dubai, UAE</p>
       </div>
     </div>
