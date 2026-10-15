@@ -321,31 +321,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
-/* ---------- NEWSLETTER FORM ---------- */
-function handleNewsletterSubmit(e) {
-  e.preventDefault();
-  const input  = e.target.querySelector('input[type="email"]');
-  const button = e.target.querySelector('button');
-  const email  = input.value.trim();
-  if (!email) return;
-
-  button.textContent = 'Subscribed!';
-  button.style.background = '#2d8c4e';
-  input.value = '';
-  input.placeholder = 'Thank you!';
-  input.disabled = true;
-  button.disabled = true;
-
-  setTimeout(() => {
-    button.textContent = 'Subscribe';
-    button.style.background = '';
-    input.placeholder = 'Your email address';
-    input.disabled = false;
-    button.disabled = false;
-  }, 4000);
-}
-
-
 /* ---------- HERO PARALLAX (subtle) ---------- */
 (function initHeroParallax() {
   const pattern = document.querySelector('.hero-pattern');

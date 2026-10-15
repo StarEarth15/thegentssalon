@@ -3,29 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="The Gents Salon - Premium men's grooming and wellness in DIFC, Dubai. The first and only HydraFacial MD for men in the MENA region. Haircuts, beard grooming, facials and massage." />
-  <meta name="keywords" content="men's salon Dubai, barber DIFC, HydraFacial men Dubai, men's grooming Dubai, DIFC barber, men's facial Dubai, MENA HydraFacial" />
+  <meta name="description" content="The Gents Salon in DIFC, Dubai. The first and only salon in Dubai and the MENA region offering the original HydraFacial MD for men. Haircuts, beard, facials, massage and grooming. Rated 5.0 on Fresha." />
+  <meta name="keywords" content="men's salon Dubai, barber DIFC, HydraFacial men Dubai, men's grooming Dubai, DIFC barber, men's facial Dubai, HydraFacial MD MENA, beard trim DIFC" />
   <meta name="author" content="The Gents Salon" />
   <meta name="theme-color" content="#1a1a1a" />
+  <link rel="canonical" href="https://thegents.netlify.app/" />
   <meta property="og:title" content="The Gents Salon | Premium Men's Grooming in DIFC Dubai" />
-  <meta property="og:description" content="The first and only HydraFacial MD for men in Dubai and the MENA region. Premium grooming, haircuts, facials and wellness in the heart of DIFC." />
+  <meta property="og:description" content="The first and only salon in Dubai and MENA with the original HydraFacial MD for men. Haircuts, beard, facials and grooming in DIFC." />
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://thegents.netlify.app/" />
+  <meta property="og:image" content="https://thegents.netlify.app/images/salon-entrance.jpg" />
   <meta property="og:locale" content="en_AE" />
+  <meta name="twitter:card" content="summary_large_image" />
   <title>The Gents Salon | Premium Men's Grooming – DIFC, Dubai</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
 
   <!-- Schema Markup -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "HairSalon",
+    "@id": "https://thegents.netlify.app/#business",
     "name": "The Gents Salon",
-    "description": "Premium men's grooming and wellness salon in DIFC, Dubai. The first and only HydraFacial MD for men in Dubai and the MENA region.",
+    "url": "https://thegents.netlify.app/",
+    "image": "https://thegents.netlify.app/images/salon-entrance.jpg",
+    "description": "Premium men's grooming and wellness salon in DIFC, Dubai. The first and only salon in Dubai and the MENA region offering the original HydraFacial MD.",
     "telephone": "+971585343687",
     "email": "contact@thegentssalon.com",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Dubai International Financial Centre (DIFC)",
+      "streetAddress": "Central Park Towers Residences, Sheikh Zayed Road",
       "addressLocality": "Dubai",
+      "addressRegion": "Dubai",
       "addressCountry": "AE"
     },
     "geo": {
@@ -47,15 +56,29 @@
         "closes": "22:00"
       }
     ],
-    "priceRange": "AED 80 - AED 500",
-    "sameAs": ["https://www.instagram.com/thegentssalondubai"],
+    "priceRange": "AED 35 - AED 1,100",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "528",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "sameAs": [
+      "https://www.instagram.com/thegentssalondubai",
+      "https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3"
+    ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Men's Grooming Services",
       "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Classic Haircut"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "HydraFacial MD"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Hot Towel Shave"}}
+        {"@type": "Offer", "price": "205", "priceCurrency": "AED", "itemOffered": {"@type": "Service", "name": "Haircut & Beard"}},
+        {"@type": "Offer", "price": "125", "priceCurrency": "AED", "itemOffered": {"@type": "Service", "name": "Haircut"}},
+        {"@type": "Offer", "price": "80", "priceCurrency": "AED", "itemOffered": {"@type": "Service", "name": "Beard Shaving"}},
+        {"@type": "Offer", "price": "475", "priceCurrency": "AED", "itemOffered": {"@type": "Service", "name": "Express HydraFacial MD"}},
+        {"@type": "Offer", "price": "550", "priceCurrency": "AED", "itemOffered": {"@type": "Service", "name": "Signature HydraFacial MD"}},
+        {"@type": "Offer", "price": "1100", "priceCurrency": "AED", "itemOffered": {"@type": "Service", "name": "Platinum HydraFacial MD"}},
+        {"@type": "Offer", "price": "50", "priceCurrency": "AED", "itemOffered": {"@type": "Service", "name": "Head Massage"}}
       ]
     }
   }
@@ -99,9 +122,12 @@
     </div>
   </nav>
 
+  <main>
+
   <!-- HERO -->
-  <section class="hero" id="hero" aria-label="Hero section">
+  <section class="hero" id="hero" aria-label="Welcome to The Gents Salon">
     <div class="hero-bg" aria-hidden="true">
+      <img class="hero-photo" src="images/salon-entrance.jpg" alt="" width="1600" height="900" fetchpriority="high" />
       <div class="hero-overlay"></div>
       <div class="hero-pattern"></div>
     </div>
@@ -126,6 +152,11 @@
       </div>
       <div class="hero-stats fade-in-up delay-4" aria-label="Key facts">
         <div class="stat">
+          <span class="stat-num">5.0</span>
+          <span class="stat-label">Rating from 528 Fresha reviews</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
           <span class="stat-num">1st</span>
           <span class="stat-label">HydraFacial MD for Men in MENA</span>
         </div>
@@ -133,11 +164,6 @@
         <div class="stat">
           <span class="stat-num">7</span>
           <span class="stat-label">Days a Week</span>
-        </div>
-        <div class="stat-divider" aria-hidden="true"></div>
-        <div class="stat">
-          <span class="stat-num">DIFC</span>
-          <span class="stat-label">Heart of the Financial District</span>
         </div>
       </div>
     </div>
@@ -153,11 +179,8 @@
       <div class="about-grid">
         <div class="about-visual reveal-left">
           <div class="about-img-wrapper">
-            <div class="about-img-placeholder" role="img" aria-label="The Gents Salon interior">
-              <div class="img-overlay-text">
-                <strong>DIFC</strong>
-                <span>DUBAI</span>
-              </div>
+            <div class="about-img-frame">
+              <img src="images/salon-interior.jpg" alt="Barber chairs and reception inside The Gents Salon in DIFC" width="1600" height="1066" loading="lazy" />
             </div>
             <div class="about-badge-float" aria-label="First and only in MENA">
               <span class="badge-num">1st</span>
@@ -174,16 +197,16 @@
             and high-quality products in a welcoming, relaxed atmosphere.
           </p>
           <p class="about-body">
-            We are proud to be the <strong>FIRST and ONLY Gents Salon in Dubai and the MENA region</strong>
-            to offer the original HydraFacial MD treatments — exclusively crafted for men's skin care needs.
-            Our friendly professional staff are dedicated to delivering an extraordinary grooming experience.
+            We are proud to be the <strong>first and only salon in Dubai and the MENA region</strong>
+            to offer the Original HydraFacial MD treatments, crafted for men's skin care needs.
+            Our friendly professional team is dedicated to delivering an extraordinary grooming experience.
           </p>
           <div class="about-pillars" role="list" aria-label="Key benefits">
             <div class="pillar" role="listitem">
               <div class="pillar-icon" aria-hidden="true">◈</div>
               <div class="pillar-text">
                 <strong>Premium Treatments</strong>
-                <span>Expert techniques, quality products</span>
+                <span>Expert techniques and quality products</span>
               </div>
             </div>
             <div class="pillar" role="listitem">
@@ -208,7 +231,7 @@
   </section>
 
   <!-- HYDRAFACIAL FEATURE -->
-  <section class="hydrafacial section" id="hydrafacial" aria-label="HydraFacial MD treatment feature">
+  <section class="hydrafacial section" id="hydrafacial" aria-label="HydraFacial MD treatment">
     <div class="hydra-bg" aria-hidden="true"></div>
     <div class="container">
       <div class="hydra-header reveal-up">
@@ -276,8 +299,8 @@
             <li>
               <span class="benefit-icon" aria-hidden="true">✦</span>
               <div>
-                <strong>Minimal Downtime</strong>
-                <p>Designed to fit around a busy schedule, with little to no recovery time.</p>
+                <strong>No Downtime</strong>
+                <p>Designed to fit around a busy schedule, with no irritation and no recovery time.</p>
               </div>
             </li>
             <li>
@@ -297,39 +320,45 @@
           </ul>
           <div class="hydra-price">
             <span class="price-from">From</span>
-            <span class="price-amount">AED 400</span>
-            <span class="price-note">per session</span>
+            <span class="price-amount">AED 475</span>
+            <span class="price-note">Express HydraFacial MD, 1 hour</span>
           </div>
           <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3/booking?allOffer=true&amp;menu=true&amp;pId=778410&amp;cartId=ace79018-c450-4564-ac27-90dcc6f33616" target="_blank" rel="noopener noreferrer" class="btn btn-gold">Experience the Difference – Book Your HydraFacial</a>
         </div>
       </div>
       <div class="hydra-gallery reveal-up">
-        <div class="gallery-label">HydraFacial MD</div>
+        <div class="gallery-label">Inside The Gents Salon</div>
         <div class="before-after-grid">
-          <div class="ba-card">
-            <div class="ba-visual ba-1" role="img" aria-label="HydraFacial MD treatment, skin clarity and glow"></div>
-            <div class="ba-caption">
+          <figure class="ba-card">
+            <div class="ba-visual">
+              <img src="images/salon-entrance.jpg" alt="The Gents Salon sign and HydraFacial station at the entrance" width="1600" height="900" loading="lazy" />
+            </div>
+            <figcaption class="ba-caption">
+              <span class="ba-tag">DIFC</span>
+              <strong>Our Entrance</strong>
+              <p>Central Park Towers Residences</p>
+            </figcaption>
+          </figure>
+          <figure class="ba-card">
+            <div class="ba-visual">
+              <img src="images/salon-interior.jpg" alt="Barber chair and interior of The Gents Salon" width="1600" height="1066" loading="lazy" />
+            </div>
+            <figcaption class="ba-caption">
               <span class="ba-tag">HydraFacial MD</span>
-              <strong>Skin Clarity &amp; Glow</strong>
-              <p>Results vary by individual</p>
+              <strong>Treatment &amp; Barber Chairs</strong>
+              <p>Dedicated space for every service</p>
+            </figcaption>
+          </figure>
+          <figure class="ba-card">
+            <div class="ba-visual">
+              <img src="images/salon-lounge.jpg" alt="Relaxed waiting lounge at The Gents Salon" width="1600" height="900" loading="lazy" />
             </div>
-          </div>
-          <div class="ba-card">
-            <div class="ba-visual ba-2" role="img" aria-label="HydraFacial MD treatment, pore refinement"></div>
-            <div class="ba-caption">
-              <span class="ba-tag">HydraFacial MD</span>
-              <strong>Pore Refinement</strong>
-              <p>Results vary by individual</p>
-            </div>
-          </div>
-          <div class="ba-card">
-            <div class="ba-visual ba-3" role="img" aria-label="HydraFacial MD treatment, youthful radiance"></div>
-            <div class="ba-caption">
-              <span class="ba-tag">Anti-Aging Series</span>
-              <strong>Youthful Radiance</strong>
-              <p>Results vary by individual</p>
-            </div>
-          </div>
+            <figcaption class="ba-caption">
+              <span class="ba-tag">Lounge</span>
+              <strong>Relax Before You Go</strong>
+              <p>A comfortable place to unwind</p>
+            </figcaption>
+          </figure>
         </div>
       </div>
     </div>
@@ -341,11 +370,11 @@
       <div class="section-header reveal-up">
         <div class="section-label">What We Offer</div>
         <h2 class="section-title">Our Services</h2>
-        <p class="section-desc">From precision haircuts to transformative facials — every service crafted for the modern gentleman.</p>
+        <p class="section-desc">From precision haircuts to the Original HydraFacial MD. Prices are as listed on our booking page.</p>
       </div>
       <div class="services-grid">
 
-        <article class="service-card reveal-up delay-1" aria-label="Haircut and grooming services">
+        <article class="service-card reveal-up delay-1" aria-labelledby="svc-haircut">
           <div class="card-icon" aria-hidden="true">
             <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8 40L24 8L40 40" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -354,19 +383,20 @@
               <circle cx="40" cy="42" r="3" stroke="currentColor" stroke-width="2"/>
             </svg>
           </div>
-          <h3>Haircut &amp; Grooming</h3>
-          <p>Precision cuts and beard work by our barbers, from classic looks to contemporary styles.</p>
-          <ul class="card-menu" aria-label="Haircut service menu">
-            <li><span>Classic Haircut</span><span class="price">AED 100–120</span></li>
-            <li><span>Fade / Undercut</span><span class="price">AED 120–150</span></li>
-            <li><span>Beard Trim &amp; Shaping</span><span class="price">AED 80–100</span></li>
-            <li><span>Full Grooming Package</span><span class="price">AED 180–220</span></li>
-            <li><span>Hot Towel Shave</span><span class="price">AED 100</span></li>
+          <h3 id="svc-haircut">Haircuts &amp; Beard</h3>
+          <p>Precision cuts and beard work from our barbers.</p>
+          <ul class="card-menu" aria-label="Haircut and beard menu">
+            <li><span>Haircut &amp; Beard <small>55 min</small></span><span class="price">AED 205</span></li>
+            <li><span>Haircut <small>35 min</small></span><span class="price">AED 125</span></li>
+            <li><span>Kids Haircut <small>5–12 yrs, 45 min</small></span><span class="price">AED 75</span></li>
+            <li><span>Beard Shaving <small>30 min</small></span><span class="price">AED 80</span></li>
+            <li><span>Beard Colouring <small>30 min</small></span><span class="price">AED 80</span></li>
+            <li><span>Dyson Blow-Dry <small>20 min</small></span><span class="price">AED 50</span></li>
           </ul>
           <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3/booking?allOffer=true&amp;menu=true&amp;pId=778410&amp;cartId=ace79018-c450-4564-ac27-90dcc6f33616" target="_blank" rel="noopener noreferrer" class="card-cta">Book Now</a>
         </article>
 
-        <article class="service-card reveal-up delay-2" aria-label="Facial treatment services">
+        <article class="service-card reveal-up delay-2" aria-labelledby="svc-facial">
           <div class="card-badge" aria-label="Signature service">Signature</div>
           <div class="card-icon" aria-hidden="true">
             <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -375,19 +405,20 @@
               <path d="M17 21c0 0 3 1 7 1s7-1 7-1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
             </svg>
           </div>
-          <h3>Facial Treatments</h3>
-          <p>The first and only HydraFacial MD for men in the MENA region, alongside facials designed for men's skin.</p>
-          <ul class="card-menu" aria-label="Facial treatment menu">
-            <li class="highlight"><span>HydraFacial MD</span><span class="price">AED 400–500</span></li>
-            <li><span>Classic Facial</span><span class="price">AED 250–350</span></li>
-            <li><span>Anti-Aging Facial</span><span class="price">AED 350–450</span></li>
-            <li><span>Acne Treatment Facial</span><span class="price">AED 300–400</span></li>
-            <li><span>Express Facial (30 min)</span><span class="price">AED 150</span></li>
+          <h3 id="svc-facial">HydraFacial MD &amp; Facials</h3>
+          <p>The Original HydraFacial MD, the first and only in Dubai and MENA, plus targeted facial treatments.</p>
+          <ul class="card-menu" aria-label="HydraFacial and facial menu">
+            <li class="highlight"><span>Express HydraFacial MD <small>1 hr, barber chair</small></span><span class="price">AED 475</span></li>
+            <li class="highlight"><span>Signature HydraFacial MD <small>1 hr 30 min</small></span><span class="price">AED 550</span></li>
+            <li><span>Signature + Extended Extractions <small>1 hr 45 min</small></span><span class="price">AED 650</span></li>
+            <li><span>Platinum HydraFacial MD <small>2 hrs</small></span><span class="price">AED 1,100</span></li>
+            <li><span>Eye Perk HydraFacial MD <small>15 min</small></span><span class="price">AED 180</span></li>
+            <li><span>Jelly Mask &amp; Dermalux LED <small>20 min</small></span><span class="price">AED 45</span></li>
           </ul>
           <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3/booking?allOffer=true&amp;menu=true&amp;pId=778410&amp;cartId=ace79018-c450-4564-ac27-90dcc6f33616" target="_blank" rel="noopener noreferrer" class="card-cta gold">Book HydraFacial</a>
         </article>
 
-        <article class="service-card reveal-up delay-3" aria-label="Skin and grooming care products">
+        <article class="service-card reveal-up delay-3" aria-labelledby="svc-skin">
           <div class="card-icon" aria-hidden="true">
             <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect x="16" y="10" width="16" height="28" rx="4" stroke="currentColor" stroke-width="2"/>
@@ -395,17 +426,20 @@
               <path d="M22 10V6M26 10V6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
             </svg>
           </div>
-          <h3>Skin &amp; Grooming Care</h3>
-          <p>Professional grooming products and advice on the right routine for your skin.</p>
-          <ul class="card-menu" aria-label="Skin care services">
-            <li><span>Professional Shaving Products</span><span class="price">In-salon</span></li>
-            <li><span>Premium Skincare Range</span><span class="price">In-salon</span></li>
-            <li><span>Grooming Consultation</span><span class="price">On request</span></li>
+          <h3 id="svc-skin">Hair, Skin &amp; Nails</h3>
+          <p>Hair treatments, colour, manicure, pedicure and waxing.</p>
+          <ul class="card-menu" aria-label="Hair, skin and nail menu">
+            <li><span>Keratin Treatment <small>2 hrs</small></span><span class="price">AED 650</span></li>
+            <li><span>Hair Colour <small>1 hr</small></span><span class="price">from AED 250</span></li>
+            <li><span>Manicure &amp; Pedicure <small>1 hr</small></span><span class="price">AED 200</span></li>
+            <li><span>Manicure or Pedicure <small>30 min</small></span><span class="price">AED 100</span></li>
+            <li><span>Cut &amp; File <small>20 min</small></span><span class="price">AED 55</span></li>
+            <li><span>Waxing <small>nose, ear, brow, underarm, back, chest</small></span><span class="price">AED 20–130</span></li>
           </ul>
-          <a href="#contact" class="card-cta">Enquire</a>
+          <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3/booking?allOffer=true&amp;menu=true&amp;pId=778410&amp;cartId=ace79018-c450-4564-ac27-90dcc6f33616" target="_blank" rel="noopener noreferrer" class="card-cta">Book Now</a>
         </article>
 
-        <article class="service-card reveal-up delay-4" aria-label="Wellness and relaxation treatments">
+        <article class="service-card reveal-up delay-4" aria-labelledby="svc-wellness">
           <div class="card-icon" aria-hidden="true">
             <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 24c0-6.627 5.373-12 12-12s12 5.373 12 12" stroke="currentColor" stroke-width="2"/>
@@ -413,17 +447,16 @@
               <path d="M12 38c4-4 8-4 12 0s8 4 12 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
             </svg>
           </div>
-          <h3>Wellness &amp; Relaxation</h3>
-          <p>Step away from the boardroom with massage treatments designed to help you unwind.</p>
-          <ul class="card-menu" aria-label="Wellness treatments menu">
-            <li><span>Head &amp; Neck Massage</span><span class="price">AED 150–200</span></li>
-            <li><span>Full Body Massage</span><span class="price">AED 250–350</span></li>
-            <li><span>Relaxation Packages</span><span class="price">On request</span></li>
+          <h3 id="svc-wellness">Massage &amp; Relaxation</h3>
+          <p>A short massage to ease the tension of a busy day.</p>
+          <ul class="card-menu" aria-label="Massage menu">
+            <li><span>Head Massage <small>15 min</small></span><span class="price">AED 50</span></li>
+            <li><span>Hand Massage <small>10 min</small></span><span class="price">AED 35</span></li>
           </ul>
           <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3/booking?allOffer=true&amp;menu=true&amp;pId=778410&amp;cartId=ace79018-c450-4564-ac27-90dcc6f33616" target="_blank" rel="noopener noreferrer" class="card-cta">Book Now</a>
         </article>
 
-        <article class="service-card reveal-up delay-5 card-wide" aria-label="Corporate packages for businesses">
+        <article class="service-card reveal-up delay-5 card-wide" aria-labelledby="svc-corp">
           <div class="card-icon" aria-hidden="true">
             <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect x="8" y="20" width="32" height="22" rx="2" stroke="currentColor" stroke-width="2"/>
@@ -434,7 +467,7 @@
           </div>
           <div class="card-wide-content">
             <div>
-              <h3>Corporate &amp; VIP Packages</h3>
+              <h3 id="svc-corp">Corporate &amp; VIP Packages</h3>
               <p>Packages for DIFC professionals and teams, including group discounts, monthly packages for regular clients and VIP membership.</p>
               <ul class="card-menu horizontal" aria-label="Corporate packages">
                 <li><span>Group discounts for DIFC teams</span></li>
@@ -456,50 +489,50 @@
       <div class="section-header reveal-up">
         <div class="section-label">Our Work</div>
         <h2 class="section-title">The Craft Behind Every Visit</h2>
-        <p class="section-desc">Precision, care and attention to detail in every cut, shave and treatment.</p>
+        <p class="section-desc">Precision, care and attention to detail in every cut and treatment.</p>
       </div>
       <div class="gallery-grid">
-        <div class="gallery-item reveal-up delay-1" role="img" aria-label="Precision haircut">
-          <div class="gallery-img g-img-1"></div>
-          <div class="gallery-overlay">
+        <figure class="gallery-item reveal-up delay-1">
+          <img class="gallery-img" src="images/work-01.jpg" alt="Short back-and-sides haircut with a clean fade" width="1600" height="1600" loading="lazy" />
+          <figcaption class="gallery-overlay">
             <span class="gallery-tag">Haircut</span>
-            <strong>Precision Cut</strong>
-          </div>
-        </div>
-        <div class="gallery-item reveal-up delay-2" role="img" aria-label="HydraFacial MD treatment">
-          <div class="gallery-img g-img-2"></div>
-          <div class="gallery-overlay">
-            <span class="gallery-tag">HydraFacial MD</span>
-            <strong>Radiant Skin</strong>
-          </div>
-        </div>
-        <div class="gallery-item reveal-up delay-3" role="img" aria-label="Beard shaping">
-          <div class="gallery-img g-img-3"></div>
-          <div class="gallery-overlay">
-            <span class="gallery-tag">Beard Styling</span>
-            <strong>Beard Shaping</strong>
-          </div>
-        </div>
-        <div class="gallery-item reveal-up delay-4" role="img" aria-label="Full grooming package">
-          <div class="gallery-img g-img-4"></div>
-          <div class="gallery-overlay">
-            <span class="gallery-tag">Full Package</span>
-            <strong>Complete Grooming</strong>
-          </div>
-        </div>
-        <div class="gallery-item gallery-item-tall reveal-up delay-2" role="img" aria-label="Anti-aging facial treatment">
-          <div class="gallery-img g-img-5"></div>
-          <div class="gallery-overlay">
-            <span class="gallery-tag">Anti-Aging</span>
-            <strong>Skin Care Ritual</strong>
-          </div>
-        </div>
+            <strong>Clean Fade</strong>
+          </figcaption>
+        </figure>
+        <figure class="gallery-item reveal-up delay-2">
+          <img class="gallery-img" src="images/work-02.jpg" alt="Close crop haircut with a skin fade" width="1600" height="1600" loading="lazy" />
+          <figcaption class="gallery-overlay">
+            <span class="gallery-tag">Haircut</span>
+            <strong>Close Crop</strong>
+          </figcaption>
+        </figure>
+        <figure class="gallery-item reveal-up delay-3">
+          <img class="gallery-img" src="images/work-03.jpg" alt="Textured haircut with a low fade at the back" width="1600" height="1600" loading="lazy" />
+          <figcaption class="gallery-overlay">
+            <span class="gallery-tag">Haircut</span>
+            <strong>Textured Cut</strong>
+          </figcaption>
+        </figure>
+        <figure class="gallery-item reveal-up delay-4">
+          <img class="gallery-img" src="images/work-04.jpg" alt="Haircut with a neat taper" width="1600" height="1600" loading="lazy" />
+          <figcaption class="gallery-overlay">
+            <span class="gallery-tag">Haircut</span>
+            <strong>Neat Taper</strong>
+          </figcaption>
+        </figure>
+        <figure class="gallery-item gallery-item-tall reveal-up delay-2">
+          <img class="gallery-img" src="images/work-05.jpg" alt="Classic haircut with a mid fade, back view" width="1600" height="1600" loading="lazy" />
+          <figcaption class="gallery-overlay">
+            <span class="gallery-tag">Haircut</span>
+            <strong>Classic Fade</strong>
+          </figcaption>
+        </figure>
       </div>
     </div>
   </section>
 
   <!-- TEAM -->
-  <section class="team section" id="team" aria-label="Our team of professionals">
+  <section class="team section" id="team" aria-label="Our team">
     <div class="container">
       <div class="section-header reveal-up">
         <div class="section-label">The Experts</div>
@@ -509,15 +542,11 @@
       <div class="team-grid">
 
         <div class="team-card reveal-up delay-1">
-          <div class="team-photo" role="img" aria-label="Master barber at work">
-            <div class="team-photo-placeholder tp-1"></div>
+          <div class="team-photo">
+            <div class="team-photo-placeholder tp-1" role="img" aria-label="Fahd, Barber"><span class="team-initial" aria-hidden="true">F</span></div>
             <div class="team-hover-overlay" aria-hidden="true">
-              <p>Classic and contemporary cuts, precisely executed.</p>
-              <div class="team-skills">
-                <span>Classic Cuts</span>
-                <span>Fades</span>
-                <span>Beard Shaping</span>
-              </div>
+              <p>Haircuts and beard work, precisely done.</p>
+              <div class="team-skills"><span>Haircuts</span><span>Beard Shaving</span></div>
             </div>
           </div>
           <div class="team-info">
@@ -527,15 +556,11 @@
         </div>
 
         <div class="team-card reveal-up delay-2">
-          <div class="team-photo" role="img" aria-label="Senior barber at work">
-            <div class="team-photo-placeholder tp-2"></div>
+          <div class="team-photo">
+            <div class="team-photo-placeholder tp-2" role="img" aria-label="Zaher, Barber"><span class="team-initial" aria-hidden="true">Z</span></div>
             <div class="team-hover-overlay" aria-hidden="true">
-              <p>Sharp lines and a relaxed, traditional shave.</p>
-              <div class="team-skills">
-                <span>Fades</span>
-                <span>Hot Towel Shave</span>
-                <span>Styling</span>
-              </div>
+              <p>Careful, attentive cuts for every client.</p>
+              <div class="team-skills"><span>Haircuts</span><span>Beard Work</span></div>
             </div>
           </div>
           <div class="team-info">
@@ -545,38 +570,30 @@
         </div>
 
         <div class="team-card reveal-up delay-3">
-          <div class="team-photo" role="img" aria-label="HydraFacial MD specialist">
-            <div class="team-photo-placeholder tp-3"></div>
+          <div class="team-photo">
+            <div class="team-photo-placeholder tp-3" role="img" aria-label="Magdy, Barber"><span class="team-initial" aria-hidden="true">M</span></div>
             <div class="team-hover-overlay" aria-hidden="true">
-              <p>Tailored skin care built around the individual.</p>
-              <div class="team-skills">
-                <span>HydraFacial MD</span>
-                <span>Anti-Aging</span>
-                <span>Skin Analysis</span>
-              </div>
+              <p>Haircut and beard, finished to a clean standard.</p>
+              <div class="team-skills"><span>Haircut &amp; Beard</span></div>
             </div>
           </div>
           <div class="team-info">
-            <h3>Facial Therapist</h3>
-            <span class="team-title">Original HydraFacial® MD</span>
+            <h3>Magdy</h3>
+            <span class="team-title">Barber</span>
           </div>
         </div>
 
         <div class="team-card reveal-up delay-4">
-          <div class="team-photo" role="img" aria-label="Skin care therapist">
-            <div class="team-photo-placeholder tp-4"></div>
+          <div class="team-photo">
+            <div class="team-photo-placeholder tp-4" role="img" aria-label="Tina, Nails, Massage and Wax"><span class="team-initial" aria-hidden="true">T</span></div>
             <div class="team-hover-overlay" aria-hidden="true">
-              <p>Thoughtful facials and massage to help you recharge.</p>
-              <div class="team-skills">
-                <span>Facials</span>
-                <span>Skin Care</span>
-                <span>Wellness</span>
-              </div>
+              <p>Massage, manicure and waxing, with care.</p>
+              <div class="team-skills"><span>Massage</span><span>Nails</span><span>Waxing</span></div>
             </div>
           </div>
           <div class="team-info">
             <h3>Tina</h3>
-            <span class="team-title">Massage, Nails &amp; Waxing</span>
+            <span class="team-title">Nails, Massage &amp; Wax</span>
           </div>
         </div>
 
@@ -585,18 +602,18 @@
   </section>
 
   <!-- TESTIMONIALS -->
-  <section class="testimonials section" id="testimonials" aria-label="Client testimonials">
+  <section class="testimonials section" id="testimonials" aria-label="Client reviews">
     <div class="container">
       <div class="section-header reveal-up">
         <div class="section-label">Client Reviews</div>
         <h2 class="section-title light">What Gentlemen Say</h2>
-        <p class="section-desc">Rated 5.0 from 528 reviews on <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3?pId=778410" target="_blank" rel="noopener noreferrer" class="text-link">Fresha</a></p>
+        <p class="section-desc">Rated 5.0 from 528 reviews on <a href="https://www.fresha.com/en-GB/a/the-gents-salon-dubai-central-park-towers-residences-sheikh-zayed-road-di9v7ld3?pId=778410&amp;reviews=true" target="_blank" rel="noopener noreferrer" class="text-link">Fresha</a></p>
       </div>
       <div class="testimonials-track-wrapper" aria-live="polite">
         <div class="testimonials-track" id="testimonialsTrack">
 
           <article class="testimonial-card" aria-label="Review by Ahmed">
-            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
             <blockquote>
               "The HydraFacial changed my skin. Professional service, fantastic staff."
             </blockquote>
@@ -610,7 +627,7 @@
           </article>
 
           <article class="testimonial-card" aria-label="Review by Marcus">
-            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
             <blockquote>
               "Finally, a salon that understands men's grooming needs. Highly recommend."
             </blockquote>
@@ -624,7 +641,7 @@
           </article>
 
           <article class="testimonial-card" aria-label="Review by Khalid">
-            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
             <blockquote>
               "Best haircuts in Dubai. The atmosphere is perfect for relaxing after work."
             </blockquote>
@@ -638,7 +655,7 @@
           </article>
 
           <article class="testimonial-card" aria-label="Review by James">
-            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
             <blockquote>
               "The HydraFacial treatment is worth every dirham. My skin looks incredible."
             </blockquote>
@@ -652,7 +669,7 @@
           </article>
 
           <article class="testimonial-card" aria-label="Review by Hassan">
-            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
             <blockquote>
               "Exceptional service. This is where I come to look and feel my best."
             </blockquote>
@@ -665,12 +682,54 @@
             </div>
           </article>
 
+          <article class="testimonial-card" aria-label="Fresha review by Raymond B.">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>
+              "Tremendous guy and fantastic shave. The only place I'd go to when in Dubai."
+            </blockquote>
+            <div class="reviewer">
+              <div class="reviewer-avatar" aria-hidden="true">R</div>
+              <div>
+                <strong>Raymond B.</strong>
+                <span>Fresha review</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card" aria-label="Fresha review by Derek A.">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>
+              "Zaher is the best barber in Dubai. He is so attentive and provides a consistent, high-quality experience every time. All the barbers at The Gents Salon are excellent."
+            </blockquote>
+            <div class="reviewer">
+              <div class="reviewer-avatar" aria-hidden="true">D</div>
+              <div>
+                <strong>Derek A.</strong>
+                <span>Fresha review</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card" aria-label="Fresha review by Declan">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>
+              "Great haircut and beard trim!"
+            </blockquote>
+            <div class="reviewer">
+              <div class="reviewer-avatar" aria-hidden="true">D</div>
+              <div>
+                <strong>Declan</strong>
+                <span>Fresha review</span>
+              </div>
+            </div>
+          </article>
+
         </div>
       </div>
-      <div class="testimonial-controls" role="group" aria-label="Testimonial navigation">
-        <button class="tc-btn" id="tcPrev" aria-label="Previous testimonial">&#8592;</button>
-        <div class="tc-dots" id="tcDots" role="tablist" aria-label="Testimonial indicators"></div>
-        <button class="tc-btn" id="tcNext" aria-label="Next testimonial">&#8594;</button>
+      <div class="testimonial-controls" role="group" aria-label="Review navigation">
+        <button class="tc-btn" id="tcPrev" aria-label="Previous reviews">&#8592;</button>
+        <div class="tc-dots" id="tcDots" role="tablist" aria-label="Review groups"></div>
+        <button class="tc-btn" id="tcNext" aria-label="Next reviews">&#8594;</button>
       </div>
     </div>
   </section>
@@ -683,7 +742,7 @@
         <div class="section-label gold">Reserve Your Experience</div>
         <h2 class="section-title light">Book Your<br><em>Appointment</em></h2>
         <p class="booking-desc">
-          Available for same-day appointments. Our HydraFacial sessions are popular, so we recommend booking early.
+          Available for same-day appointments, with instant confirmation. HydraFacial sessions are popular, so we recommend booking early.
         </p>
         <div class="booking-highlight" role="note">
           <span class="bh-icon" aria-hidden="true">✦</span>
@@ -783,7 +842,7 @@
         <div class="contact-map reveal-right">
           <div class="map-wrapper">
             <iframe
-              title="The Gents Salon location in DIFC, Dubai"
+              title="Map showing The Gents Salon at Central Park Towers Residences, DIFC, Dubai"
               src="https://maps.google.com/maps?q=25.2048,55.2708&amp;z=15&amp;output=embed"
               width="100%"
               height="400"
@@ -798,6 +857,8 @@
     </div>
   </section>
 
+  </main>
+
   <!-- FOOTER -->
   <footer class="footer" role="contentinfo">
     <div class="footer-top">
@@ -806,7 +867,7 @@
           <div class="footer-brand">
             <div class="footer-logo">The Gents Salon</div>
             <p class="footer-tagline">Unique grooming salon for the discerning gentleman.</p>
-            <p class="footer-location">Dubai International Financial Centre, Dubai, UAE</p>
+            <p class="footer-location">Central Park Towers Residences, Sheikh Zayed Road, DIFC, Dubai, UAE</p>
             <div class="footer-social" aria-label="Social media">
               <a href="https://www.instagram.com/thegentssalondubai" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -830,20 +891,22 @@
           <div class="footer-links">
             <h4>Services</h4>
             <ul role="list">
-              <li><a href="#services">Haircut &amp; Grooming</a></li>
+              <li><a href="#services">Haircuts &amp; Beard</a></li>
               <li><a href="#services">HydraFacial MD</a></li>
-              <li><a href="#services">Facial Treatments</a></li>
-              <li><a href="#services">Skin Care</a></li>
-              <li><a href="#services">Wellness Massage</a></li>
+              <li><a href="#services">Facials</a></li>
+              <li><a href="#services">Hair, Skin &amp; Nails</a></li>
+              <li><a href="#services">Massage</a></li>
               <li><a href="#services">Corporate Packages</a></li>
             </ul>
           </div>
           <div class="footer-newsletter">
             <h4>Stay Connected</h4>
             <p>Grooming tips and exclusive offers.</p>
-            <form class="newsletter-form" aria-label="Newsletter signup form" onsubmit="handleNewsletterSubmit(event)">
+            <form class="newsletter-form" name="newsletter" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" aria-label="Newsletter signup form">
+              <input type="hidden" name="form-name" value="newsletter" />
+              <p hidden><label>Don't fill this out: <input name="bot-field" /></label></p>
               <div class="newsletter-input-wrap">
-                <input type="email" placeholder="Your email address" aria-label="Email address for newsletter" required autocomplete="email" />
+                <input type="email" name="email" placeholder="Your email address" aria-label="Email address for newsletter" required autocomplete="email" />
                 <button type="submit" aria-label="Subscribe to newsletter">Subscribe</button>
               </div>
             </form>
@@ -855,7 +918,7 @@
     <div class="footer-bottom">
       <div class="container">
         <p>&copy; 2026 The Gents Salon. All rights reserved.</p>
-        <p>Dubai International Financial Centre, Dubai, UAE</p>
+        <p>Central Park Towers Residences, Sheikh Zayed Road, DIFC, Dubai, UAE</p>
       </div>
     </div>
   </footer>
